@@ -11,7 +11,7 @@ export default function Rightbar({ user }) {
     const email = useRef();
     const city = useRef();
     const from = useRef();
-    const profilePic = useRef();
+    const profilePic = useRef();  
     const coverPic = useRef();
     const password = useRef();
     const passwordAgain = useRef();
@@ -65,7 +65,6 @@ export default function Rightbar({ user }) {
                 });
                 dispatch({ type: "FOLLOW", payload: user._id });
             }
-            console.log("ha");
             setFollowed(!followed);
         } catch (err) {}
     };

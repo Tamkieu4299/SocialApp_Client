@@ -14,7 +14,7 @@ export default function Message({message,own,user}) {
                 const otherId = await conversation.data.members.filter((i) => i!==user._id)[0];
                 const otherUser = await axios.get("/users?userId="+otherId);
                 setOther(otherUser.data);
-            } catch (err){
+            } catch (err) {
                 console.log(err);
             }
             console.log(other);
