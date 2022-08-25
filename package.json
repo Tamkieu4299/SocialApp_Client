@@ -41,5 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://socialappbyantisocial.herokuapp.com/api"
+  "proxy": "https://socialappbyantisocial.herokuapp.com/api/"
 }
